@@ -1,0 +1,7 @@
+>aws configure
+>aws s3 ls
+>cd D:\Kaushal\Tech\Learning\Coursera - DeepLearning\AI in Production and ML Ops\C2_W3\src>
+>d:
+D:\Kaushal\Tech\Learning\Coursera - DeepLearning\AI in Production and ML Ops\C2_W3\src>aws s3 cp --recursive s3://kaushal-coursera-c2w3/initial/src/ ./
+D:\Kaushal\Tech\Learning\Coursera - DeepLearning\AI in Production and ML Ops\C2_W3\src>aws s3 cp --recursive s3://kaushal-coursera-c2w3/initial/images/ ../images/   [will create the folder images as well
+D:\Kaushal\Tech\Learning\Coursera - DeepLearning\AI in Production and ML Ops\C2_W3\src>aws s3 cp ../model.tar.gz s3://kaushal-coursera-c2w3/initial/
